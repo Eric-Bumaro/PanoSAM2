@@ -82,6 +82,12 @@ Training uses distributed data parallel (DDP). Configure the dataset, backbone, 
 CUDA_VISIBLE_DEVICES=0,1 python3 -m torch.distributed.launch --nproc_per_node=2 train.py
 ```
 
+### Weight Files
+[**Hiera-Tiny**](https://drive.google.com/file/d/1qSLFSbCCrNnvleY_y4oKzjaUBOQjPjmr/view?usp=sharing)
+
+[**Hiera-Small**](https://drive.google.com/file/d/1WfTWgQ5GT5vDObj79rDpLURdKVW9q7g9/view?usp=drive_link)
+
+
 ### Inference on a Custom Video
 
 Provide a frame directory and an initial mask.
